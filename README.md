@@ -1,5 +1,7 @@
 # Nerdery Overnight Challenge Mixer Planning Notes
 
+## See all the existing sites at once: [mattborn.com/overnight](http://mattborn.com/overnight)
+
 ## Speed-dating Mixer
 
 - Talked to 1 or 2 people from every non-profit for 7 minutes each
