@@ -1,0 +1,33 @@
+@import "https://fonts.googleapis.com/css?family=Unica+One|Playfair+Display";
+
+html {
+	height: 100%;
+	font: 100%/1.5 'Playfair Display', Georgia, serif;
+	color: #444;
+}
+
+body {
+	height: 100%;
+	padding: 50px;
+	text-align: center;
+}
+
+h1 {
+	font: 14px 'Unica One', sans-serif;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 60px;
+	margin: 100px 0 40px;
+	text-transform: uppercase;
+}
+
+iframe {
+	width: 100%;
+	height: calc(100% - 200px);
+	border: 1px solid #bbb;
+	box-shadow: 10px 10px #eee;
+}
+
+footer { padding: 100px; }
