@@ -27,17 +27,15 @@
     <link rel="stylesheet" type="text/css" href="css/extralayers.css" media="screen" />	
 	<link rel="stylesheet" type="text/css" href="vendor/revslider/css/settings.css" media="screen" />
 
-	<!-- GOOGLE FONTS FOR REVOLUTION SLIDER ONLY -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800' rel='stylesheet' type='text/css' />
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css' />
-	<link href='http://fonts.googleapis.com/css?family=Raleway:100,200,300,700,800,900' rel='stylesheet' type='text/css' />
+	<!-- GOOGLE FONTS -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800' rel='stylesheet' type='text/css'>
 <!-- Color Style -->
 <link href="colors/color1.css" rel="stylesheet" type="text/css">
 <!-- SCRIPTS
   ================================================== -->
 <script src="js/modernizr.js"></script><!-- Modernizr -->
 </head>
-<body class="home header-style1">
+<body class="home header-style3">
 <!--[if lt IE 7]>
 	<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
 <![endif]-->
@@ -64,9 +62,16 @@
         <header class="site-header">
             <div class="container sp-cont">
                 <div class="site-logo">
-                    <h1><a href="index.html"><img src="images/logo.png" alt="Logo"></a></h1>
+                    <h1><a href="index.html"><img src="images/logow.png" alt="Logo"></a></h1>
                 </div>
+                <a href="#" class="btn btn-primary pull-right push-top hidden-xs hidden-sm">Support your history</a>
                 <a href="#" class="visible-sm visible-xs" id="menu-toggle"><i class="fa fa-bars"></i></a>
+            </div>
+        </header>
+        <!-- End Site Header -->
+        <!-- Nav Bar -->
+        <div class="main-navbar">
+        	<div class="container">
                 <!-- Main Navigation -->
                 <nav class="main-navigation dd-menu toggle-menu" role="navigation">
                     <ul class="sf-menu">
@@ -153,12 +158,13 @@
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
-            </div>
-        </header>
-        <!-- End Site Header -->
+           	</div>
+        </div>
    	</div>
     <div class="hero-area">
     	<!-- Start Hero Slider -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:100,200,300,700,800,900' rel='stylesheet' type='text/css'>
       	<div class="slider-rev-cont">
           	<div class="tp-banner-container">
             	<div class="tp-banner">
@@ -342,7 +348,7 @@
                     <div class="container">
                         <div class="carousel-wrapper">
                             <div class="row">
-                                <ul class="owl-carousel carousel-fw" id="venues-slider" data-columns="3" data-autoplay="" data-pagination="no" data-arrows="yes" data-single-item="no" data-items-desktop="3" data-items-desktop-small="2" data-items-tablet="2" data-items-mobile="1">
+                                <ul class="owl-carousel carousel-fw" id="venues-slider" data-columns="3" data-autoplay="" data-pagination="no" data-arrows="yes" data-single-item="no" data-items-desktop="3" data-items-desktop-small="2" data-items-tablet="1" data-items-mobile="1">
                                     <li class="item">
                                 		<div class="featured-block featured-block-secondary format-standard">
                                             <figure>
@@ -544,7 +550,7 @@
                 	<h3 class="widget-title text-align-center">In the news</h3>
                    	<div class="carousel-wrapper">
                         <div class="row">
-                       		<ul class="owl-carousel carousel-fw" id="news-slider" data-columns="4" data-autoplay="" data-pagination="yes" data-arrows="no" data-single-item="no" data-items-desktop="3" data-items-desktop-small="2" data-items-tablet="1" data-items-mobile="1">
+                       		<ul class="owl-carousel carousel-fw" id="news-slider" data-columns="4" data-autoplay="" data-pagination="yes" data-arrows="no" data-single-item="no" data-items-desktop="3" data-items-desktop-small="2" data-items-tablet="2" data-items-mobile="1">
                                 <!-- BLOG ITEM -->
                                 <li class="item">
                                     <div class="grid-item format-standard">
@@ -780,7 +786,6 @@
 <script src="js/bootstrap.js"></script> <!-- UI -->
 <script src="js/init.js"></script> <!-- All Scripts -->
 <script src="vendor/flexslider/js/jquery.flexslider.js"></script> <!-- FlexSlider -->
-<script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
   
 <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
 <script type="text/javascript" src="vendor/revslider/js/jquery.themepunch.tools.min.js"></script>   
@@ -791,7 +796,7 @@
 		{
 			dottedOverlay:"none",
 			delay:9000,
-			startwidth:1060,
+			startwidth:1100,
 			startheight:500,
 			hideThumbs:200,
 			
